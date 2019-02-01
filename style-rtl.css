@@ -13,14 +13,14 @@
 :: 10.0 Footer Area CSS Start
 -------------------------- */
 
-
-@import '../css/bootstrap.min.css';
-@import '../css/animate.css';
-@import '../css/magnific-popup.css';
-@import '../css/owl.carousel.min.css';
-@import '../css/font-awesome.min.css';
-@import '../css/themify-icons.css';
-@import '../css/ionicons.min.css';
+@import 'css/style.css';
+@import 'css/bootstrap.min.css';
+@import 'css/animate.css';
+@import 'css/magnific-popup.css';
+@import 'css/owl.carousel.min.css';
+@import 'css/font-awesome.min.css';
+@import 'css/themify-icons.css';
+@import 'css/ionicons.min.css';
 
 /* --------------------------
 :: 1.0 Base CSS Start
@@ -32,7 +32,7 @@
 }
 
 body {
-    font-family: 'Times New Roman';
+    font-family: 'IRANSans';
     font-weight: 300;
     background-color: #fff;
 }
@@ -194,7 +194,7 @@ ol {
 #scrollUp {
     bottom: 0;
     font-size: 24px;
-    left: 30px;
+    right: 30px;
     width: 50px;
     background-color: #fb397d;
     color: #fff;
@@ -249,7 +249,7 @@ p {
 }
 
 .line-shape {
-    margin-left: calc(50% - 40px);
+    margin-right: calc(50% - 40px);
 }
 
 .table {
@@ -366,7 +366,7 @@ p {
 }
 
 .dropdown-menu {
-  background-color: #884bdf !important;
+  background-color: #884bdf;
 }
 
 .dropdown-item {
@@ -406,23 +406,23 @@ p {
 :: 3.0 welcome_area Area CSS
 -------------------------- */
 
-.welcome_area {
+.wellcome_area {
     background-image: url(img/bg-img/welcome-bg.png);
     height: 600px;
     position: relative;
     z-index: 1;
     background-position: bottom center;
     background-size: cover;
-    text-align: left;
+    text-align: right;
     background-color: #884bdf;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-.welcome_area:after {
+.wellcome_area:after {
     position: absolute;
     width: 100%;
-    right: 0;
+    left: 0;
     height: 2px;
     background-color: #fff;
     content: '';
@@ -434,7 +434,7 @@ p {
     width: 45%;
     position: absolute;
     bottom: 100px;
-    right: 85px;
+    left: 85px;
     z-index: 9;
 }
 
@@ -443,7 +443,7 @@ p {
     width: 100%;
 }
 
-.welcome-heading > h2 {
+.wellcome-heading > h2 {
     font-size: 100px;
     color: #ffffff;
     font-weight: 700;
@@ -451,7 +451,7 @@ p {
     z-index: 3;
 }
 
-.welcome-heading > h4 {
+.wellcome-heading > h4 {
     font-size:50px;
     color: #ffffff;
     font-weight: 300;
@@ -460,15 +460,14 @@ p {
 }
 
 
-.welcome-heading > p {
+.wellcome-heading > p {
     color: #fff;
 }
 
-.welcome-heading > h3 {
+.wellcome-heading > h3 {
     font-size: 332px;
     position: absolute;
     top: -134px;
-    left: 0px;
     font-weight: 900;
     z-index: -1;
     color: #fff;
@@ -476,7 +475,7 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
 
-.welcome-heading {
+.wellcome-heading {
     margin-bottom: 100px;
 }
 
