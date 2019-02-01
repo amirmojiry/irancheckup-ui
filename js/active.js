@@ -4,7 +4,7 @@
     // [ JS Active Code Index ]
 
     // :: 1.0 Owl Carousel Active Code
-    
+
     // :: 3.0 Footer Reveal Active Code
     // :: 4.0 ScrollUp Active Code
     // :: 5.0 CounterUp Active Code
@@ -46,7 +46,7 @@
         });
     }
 
-    
+
 
     // :: 3.0 Footer Reveal Active Code
     if ($.fn.footerReveal) {
