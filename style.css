@@ -386,14 +386,14 @@ p {
 }
 
 
-  
+
 /* --------------------------
 :: 3.0 wellcome_area Area CSS
 -------------------------- */
 
 .wellcome_area {
     background-image: url(img/bg-img/welcome-bg.png);
-    height: 900px;
+    height: 600px;
     position: relative;
     z-index: 1;
     background-position: bottom center;
@@ -422,7 +422,7 @@ p {
 .welcome-thumb {
     width: 45%;
     position: absolute;
-    bottom: -10px;
+    bottom: 100px;
     left: 85px;
     z-index: 9;
 }
@@ -611,7 +611,7 @@ p {
 .single-feature > h5 {
     font-size: 22px;
     color: #5b32b4;
-    margin-right: 50px;    
+    margin-right: 50px;
 
 }
 
@@ -829,7 +829,7 @@ p {
 
 
 .rule-app {
-  
+
     background: #a865e1;
     background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
     background: -webkit-linear-gradient(right, #7873ed, #a865e1);
